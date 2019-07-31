@@ -1,0 +1,46 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : 7_31EX.brd                                    )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Jul 31 10:37:01 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  U5 / LF356_0_DIP8_3_LF356 / DIP8_3 at (2.9730 77.5930)
+         Placed symbol:  U4 / LF356_0_DIP8_3_LF356 / DIP8_3 at (13.3360 77.5930)
+         Placed symbol:  U3 / LF356_0_DIP8_3_LF356 / DIP8_3 at (23.6990 77.5930)
+         Placed symbol:  U2 / LF356_0_DIP8_3_LF356 / DIP8_3 at (34.0620 77.5930)
+ERROR:   Cannot place symbol:  J1 / CON3_0_JUMPER4_CON3 / JUMPER4
+         due to ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+         Placed symbol:  VR3 / POT_RESADJ_10K / RESADJ at (57.3280 74.9005)
+         Placed symbol:  VR1 / POT_RESADJ_470K / RESADJ at (62.6110 74.9005)
+         Placed symbol:  VR2 / POT_RESADJ_100K / RESADJ at (67.8940 74.9005)
+         Placed symbol:  R18 / R_RES400_4.7K / RES400 at (71.2212 69.8840)
+         Placed symbol:  R3 / R_RES400_10K / RES400 at (74.5484 69.8840)
+         Placed symbol:  R10 / R_RES400_8.2K / RES400 at (77.8756 69.8840)
+         Placed symbol:  R12 / R_RES400_2.2K / RES400 at (81.2028 69.8840)
+ERROR:   Cannot place symbol:  J2 / CON2_JUMPER3_CON2 / JUMPER3
+         due to ERROR(SPMHGE-82): Pin numbers do not match between symbol and component. Run dev_check on device file for more information.
+         Placed symbol:  R6 / R_RES400_4.7K / RES400 at (92.3530 69.8840)
+         Placed symbol:  R11 / R_RES400_10K / RES400 at (95.6802 69.8840)
+         Placed symbol:  R7 / R_RES400_4.7K / RES400 at (3.5572 82.6090)
+         Placed symbol:  R4 / R_RES400_20K / RES400 at (6.8844 82.6090)
+         Placed symbol:  R9 / R_RES400_1K / RES400 at (10.2116 82.6090)
+ERROR:   Could not find symbol:  C4 / C_CAM196_0.001UF / CAM196
+ERROR:   Could not find symbol:  C3 / C_CAM196_0.001UF / CAM196
+ERROR:   Could not find symbol:  C2 / C_CAM196_0.001UF / CAM196
+         Placed symbol:  R5 / R_RES400_4.7K / RES400 at (13.5388 82.6090)
+         Placed symbol:  R2 / R_RES400_15K / RES400 at (16.8660 82.6090)
+         Placed symbol:  R1 / R_RES400_10K / RES400 at (20.1932 82.6090)
+ERROR:   Could not find symbol:  C1 / C_CAM196_0.001UF / CAM196
+
+
+Placed 19 of 25 applicable (25 total) symbols.
+
+-----------------------------------------------------------------------
+

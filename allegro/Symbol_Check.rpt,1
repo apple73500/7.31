@@ -1,0 +1,28 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Unplaced Symbol Availability Check                               )
+(                                                                     )
+(    Drawing          : 7_31EX.brd                                    )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Jul 31 12:10:42 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Current PSMPATH consists of:
+	.
+	symbols
+	..
+	../symbols
+	C:/Cadence/SPB_17.2/share/local/pcb/symbols
+	C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols
+	C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols
+	C:/USERS/USER/DESKTOP/ORCAD
+	WORK/PCD_LIB/PSM/
+
+
+All Symbols Found
+
+Total symbols placed:      25 out of 25
+
+
