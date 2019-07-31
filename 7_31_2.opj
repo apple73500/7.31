@@ -1,21 +1,19 @@
-(ExpressProject "7_31EX"
+(ExpressProject "7_31_2"
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
     (NoModify)
-    (File ".\7_31ex.dsn"
+    (File ".\7_31_2.dsn"
       (Type "Schematic Design"))
-    (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x")
     (DRC_Scope "0")
     (DRC_Action "0")
-    (DRC_Create_Warnings "FALSE")
+    (DRC_Create_Warnings "TRUE")
     (DRC_View_Output "FALSE")
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
-    (DRC_Run_Physical_Rules "FALSE")
-    (DRC_Report_File "C:\USERS\USER\DESKTOP\WORK\7.31\7_31EX.DRC")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File "C:\USERS\USER\DESKTOP\WORK\7.31\7_31_2.DRC")
     (DRC_Check_Ports "FALSE")
     (DRC_Check_Off-Page_Connectors "FALSE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -48,7 +46,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "TRUE")
-    ("Allegro Netlist Output Board File" "allegro\7_31EX.brd")
+    ("Allegro Netlist Output Board File" "allegro\7_31_2.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ORCAD")
@@ -57,12 +55,12 @@
     ("Allegro Setup Ignore Constraints" "FALSE")
     ("Allegro Setup Part Type Length" "31")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
-    ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Ignore Fixed Property" "TRUE")
+    ("Allegro Netlist User Defined Property" "TRUE")
     (Netlist_TAB "0")
-    ("Allegro Netlist Input Board File" "allegro\7_31EX.brd"))
+    ("Allegro Netlist Input Board File" "allegro\7_31_2.brd"))
   (Folder "Outputs"
-    (File ".\7_31ex.drc"
+    (File ".\7_31_2.drc"
       (Type "Report"))
     (File ".\allegro\pstxnet.dat"
       (Type "Report")
@@ -74,70 +72,50 @@
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
+  (MPSSessionName "user")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\7_31_2.dsn")
+      (Path "Design Resources" ".\7_31_2.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\7_31_2.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 189"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 722 52 284")
+        (Scroll "-358 11")
+        (Zoom "113")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\7.31\7_31_2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
   (PartMRUSelector
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-R
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+    (74LS90
+      (FullPartName "74LS90.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\COUNTER.OLB")
       (DeviceIndex "0"))
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D02BZ2_2
+      (FullPartName "D02BZ2_2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (d
+      (FullPartName "d.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
       (DeviceIndex "0"))
     (R
       (FullPartName "R.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (POT
-      (FullPartName "POT.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
-      (DeviceIndex "0"))
-    (CON2
-      (FullPartName "CON2.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
-      (DeviceIndex "0"))
-    (LF356
-      (FullPartName "LF356.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\OPAMP.OLB")
-      (DeviceIndex "0"))
-    (VCC
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (VCC_ARROW
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (CON3
-      (FullPartName "CON3.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
       (DeviceIndex "0")))
-  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
-  (MPSSessionName "user")
-  (GlobalState
-    (FileView
-      (Path "Design Resources")
-      (Path "Design Resources" "C:\Users\user\Desktop\work\7.31\7_31ex.dsn")
-      (Path "Outputs")
-      (Select "Design Resources" "C:\Users\user\Desktop\work\7.31\7_31ex.dsn"))
-    (HierarchyView)
-    (Doc
-      (Type "COrCapturePMDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 223"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1292 52 314")
-        (Scroll "70 138")
-        (Zoom "152")
-        (Occurrence "/"))
-      (Path "C:\USERS\USER\DESKTOP\WORK\7.31\7_31EX.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
   (ISPCBBASICLICENSE "false"))

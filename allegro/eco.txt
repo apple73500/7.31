@@ -2,48 +2,68 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31EX.brd                          |
-|                                                    Wed Jul 31 11:10:32 2019  |
+|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd                          |
+|                                                    Wed Jul 31 17:26:50 2019  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  +5V          net RENAMED (to net name listed on right)           VCC          
+               pins MOVED FROM this net (to net name listed on right)
+                                 J1.2             5.0000 32.4600
+                                                                            +5V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SIG          net RENAMED (to net name listed on right)           N02048       
+               pins MOVED FROM this net (to net name listed on right)
+                                 R9.2            49.1600 32.0000
+                                                                            SIG
+                                 R11.2           53.0000 33.1600
+                                                                            SIG
+                                 U4.3            76.0800 19.0000
+                                                                            SIG
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd                          |
+|                                                    Wed Jul 31 17:26:50 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C_CAPCK05_0.001UF
+ 74LS90_3_DIP14_3_74LS90_-12V
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   2  |
+|                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31EX.brd                          |
-|                                                    Wed Jul 31 11:10:32 2019  |
+|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd                          |
+|                                                    Wed Jul 31 17:26:50 2019  |
 |------------------------------------------------------------------------------|
 | COMPONENTS CHANGED from one device type to another in design                 |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |    ref des        | new device type     |   x   |   y   |  old  device type  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1                  C_CAPCK05_0.001UF                     C_CAM196_0.001UF
- C2                  C_CAPCK05_0.001UF                     C_CAM196_0.001UF
- C3                  C_CAPCK05_0.001UF                     C_CAM196_0.001UF
- C4                  C_CAPCK05_0.001UF                     C_CAM196_0.001UF
+ U5                  74LS90_3_DIP14_3_74LS90_-12V 17.0000 26.0000 74LS90_3_DIP14_3_74LS90_+5V_-12
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31EX.brd                          |
-|                                                    Wed Jul 31 11:10:32 2019  |
+|  C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd                          |
+|                                                    Wed Jul 31 17:26:50 2019  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1.2                           PRIM_FILE      .\pstchip.dat
- C2.2                           PRIM_FILE      .\pstchip.dat
- C3.2                           PRIM_FILE      .\pstchip.dat
- C4.2                           PRIM_FILE      .\pstchip.dat
+ U5.7           17.0000 26.0000 PRIM_FILE      .\pstchip.dat
+ U5.7           17.0000 26.0000 SECTION        
 |------------------------------------------------------------------------------|
+|       Nets changed          :       6                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       4                                        |
-|       Slot property added   :       4                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       2                                        |
 |                                                                              |
-|   Total ECO changes reported:       9                                        |
+|   Total ECO changes reported:      10                                        |
 |------------------------------------------------------------------------------|

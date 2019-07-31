@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : 7_31EX.brd                                    )
+(    Drawing          : 7_31_2.brd                                    )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Wed Jul 31 11:10:32 2019                      )
+(    Date/Time        : Wed Jul 31 17:26:50 2019                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,10 +19,10 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         'C:\USERS\USER\DESKTOP\WORK\7.31\allegro'
 Design Directory:            '.'
-Old design name:             'C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31EX.brd'
-New design name:             'C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31EX.brd'
+Old design name:             'C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd'
+New design name:             'C:/USERS/USER/DESKTOP/WORK/7.31/allegro/7_31_2.brd'
 
-CmdLine: netrev.exe -y 1 -i C:\USERS\USER\DESKTOP\WORK\7.31\allegro C:\USERS\USER\DESKTOP\WORK\7.31\allegro\7_31EX.brd C:\USERS\USER\DESKTOP\WORK\7.31\allegro\7_31EX.brd
+CmdLine: netrev.exe -y 1 -u -z -i C:\USERS\USER\DESKTOP\WORK\7.31\allegro C:\USERS\USER\DESKTOP\WORK\7.31\allegro\7_31_2.brd C:\USERS\USER\DESKTOP\WORK\7.31\allegro\7_31_2.brd
 
 ------ Preparing to read pst files ------
 
@@ -62,8 +62,8 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jul 31 11:10:32 2019
-   DESIGN NAME : '7_31EX'
+netrev run on Jul 31 17:26:50 2019
+   DESIGN NAME : '7_31_2'
    PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
@@ -87,6 +87,6 @@ netrev run on Jul 31 11:10:32 2019
  No oversight detected
  No warning detected
 
-cpu time      0:00:50
+cpu time      0:00:37
 elapsed time  0:00:01
 
